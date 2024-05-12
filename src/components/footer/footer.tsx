@@ -1,83 +1,81 @@
 import { Footer } from "flowbite-react";
-import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import {
+  BsFacebook,
+  BsTelegram,
+  BsInstagram,
+  BsLinkedin,
+} from "react-icons/bs";
 
 const FooterComponent = () => {
   return (
     <Footer
       container
-      className="flex justify-center items-center"
+      className="flex items-center justify-center"
       style={{
         backgroundImage: "url(./wave.svg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        padding: "7rem 0",
+        padding: "3rem 0",
       }}
     >
-      <div className="w-4/5 mx-auto pb-6">
-        <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-          <div className="h-20 w-44 flex justify-center items-center ">
+      <div className="w-4/5 pb-6 mx-auto">
+        <div className="grid justify-between w-full sm:flex sm:justify-between md:flex md:grid-cols-1">
+          <div className="flex items-center justify-center">
             <Footer.Brand
-              width="100%"
               href="/"
-              src="./logo.svg"
-              alt="Dynamic Technologies Logo"
-              name=""
-              className="h-full m-0"
-            />
+              className="h-10 w-44"
+              title="Dynamic Technologies"
+              src=""
+            >
+              <img
+                src="/logo.svg"
+                className="object-none object-center w-full h-full bg-center "
+                alt="Flowbite React Logo"
+              />
+            </Footer.Brand>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
-              <Footer.Title className="text-gray-900 text-lg" title="about" />
+              <Footer.Title className="text-lg text-gray-900" title="about" />
               <Footer.LinkGroup col>
                 <Footer.Link
                   href="#"
-                  className="text-lg text-gray-500 hover:underline transition-all hover:transition-all"
+                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
                 >
                   Dynamic Technologies
-                </Footer.Link>
-                <Footer.Link
-                  href="#"
-                  className="text-lg text-gray-500 hover:underline transition-all hover:transition-all"
-                >
-                  Tailwind CSS
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title
-                className="text-gray-900 text-lg"
+                className="text-lg text-gray-900"
                 title="Follow us"
               />
               <Footer.LinkGroup col>
                 <Footer.Link
                   href="#"
-                  className="text-lg text-gray-500 hover:underline transition-all hover:transition-all"
+                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
                 >
-                  Github
+                  Instagram
                 </Footer.Link>
                 <Footer.Link
                   href="#"
-                  className="text-lg text-gray-500 hover:underline transition-all hover:transition-all"
+                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
                 >
-                  Discord
-                </Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title className="text-gray-900 text-lg" title="Legal" />
-              <Footer.LinkGroup col>
-                <Footer.Link
-                  href="#"
-                  className="text-lg text-gray-500 hover:underline transition-all hover:transition-all"
-                >
-                  Privacy Policy
+                  Linkedin
                 </Footer.Link>
                 <Footer.Link
                   href="#"
-                  className="text-lg text-gray-500 hover:underline transition-all hover:transition-all"
+                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
                 >
-                  Terms &amp; Conditions
+                  Tiktok
+                </Footer.Link>
+                <Footer.Link
+                  href="#"
+                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
+                >
+                  Telegram
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -86,16 +84,16 @@ const FooterComponent = () => {
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright
-            className="text-white text-lg"
+            className="text-lg text-white"
             href="#"
             by="Dynamic Technologies™"
             year={2024}
           />
-          <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+          <div className="flex mt-4 space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon className="text-white" href="#" icon={BsFacebook} />
             <Footer.Icon className="text-white" href="#" icon={BsInstagram} />
-            <Footer.Icon className="text-white" href="#" icon={BsTwitter} />
-            <Footer.Icon className="text-white" href="#" icon={BsGithub} />
+            <Footer.Icon className="text-white" href="#" icon={BsLinkedin} />
+            <Footer.Icon className="text-white" href="#" icon={BsTelegram} />
           </div>
         </div>
       </div>

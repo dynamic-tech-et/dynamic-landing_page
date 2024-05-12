@@ -17,7 +17,7 @@ type ServiceCardProps = {
 };
 const CardData: ServiceCardProps[] = [
   {
-    title: "Custom Development",
+    title: "Custom System Development",
     description:
       "Designed and developed from scratch to perfectly suit your business needs with Cost-effective solutions.",
     icon: <MdOutlineDeveloperMode size={50} />,
@@ -58,13 +58,11 @@ const ServiceComponent = () => {
   return (
     <div
       id="services"
-      className="w-full sm:w-4/5 mx-auto flex flex-col justify-center items-center gap-12 pt-16"
+      className="flex flex-col items-center justify-center w-full gap-12 pt-16 mx-auto sm:w-4/5"
     >
       <HeadingComponent
         title="Our Services"
-        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ipsum culpa sapiente numquam n
-                    eque atque adipisci. Nemo illo aperiam magnam velit, accusamus exercitationem rem mollitia
-                    accusantium explicabo veritatis eaque animi."
+        description=" We offer a wide range of services to help you achieve your business goals."
         icon={<IoBagHandleOutline size={80} color="black" />}
       />
 
@@ -72,7 +70,7 @@ const ServiceComponent = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-content-center gap-4 md:gap-12"
+        className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 place-content-center md:gap-12"
       >
         {CardData.map((card, index) => {
           return (
@@ -86,9 +84,9 @@ const ServiceComponent = () => {
         })}
       </motion.div>
 
-      <div className="w-full flex py-4 justify-end items-center">
-        <button className="border border-gray-900 bg-gradient-to-r from-black to-gray-500 text-whte p-4 flex flex-nowrap gap-1 items-center hover:bg-white hover:rounded-full hover:text-green-900 transition-all">
-          <p className="text-white text-lg font-semibold">Discover More</p>
+      <div className="flex items-center justify-end w-full py-4">
+        <button className="flex items-center gap-1 p-4 transition-all border border-gray-900 bg-gradient-to-r from-black to-gray-500 text-whte flex-nowrap hover:bg-white hover:rounded-full hover:text-green-900">
+          <p className="text-lg font-semibold text-white">Discover More</p>
           <FaArrowRightLong />
         </button>
       </div>
