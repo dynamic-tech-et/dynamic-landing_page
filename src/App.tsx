@@ -4,8 +4,8 @@ import FooterComponent from "./components/footer/footer";
 import HeroComponent from "./components/hero/hero";
 import ServiceComponent from "./components/service/service";
 import ExplanationComponent from "./components/explanation/explanation";
-import ProjectComponent from "./components/project/project";
-import NewsComponent from "./components/news/news";
+// import ProjectComponent from "./components/project/project";
+// import NewsComponent from "./components/news/news";
 import TechnologiesComponent from "./components/technologies/technologies";
 import TestimonialComponent from "./components/testimonial/testimonial";
 
