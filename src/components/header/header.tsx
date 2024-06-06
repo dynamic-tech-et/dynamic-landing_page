@@ -40,12 +40,12 @@ const Header = () => {
         </Navbar.Brand>
         <div className="flex md:order-2 ">
           <a
-            href="https://t.me/dynamictechnologieset"
+            href="https://t.me/DynamicTechnologiesEth"
             className="text-lg"
             target="_blank"
             rel="noreferrer"
           >
-            <Button className="py-1 text-xl font-bold transition-all bg-gradient-to-r from-black to-gray-500 hover:bg-gradient-to-l">
+            <Button className="py-1 text-xl font-bold transition-all bg-gradient-to-r from-blue to-green-500 hover:bg-gradient-to-l">
               Contact Us
             </Button>
           </a>
@@ -53,7 +53,6 @@ const Header = () => {
         </div>
         <Navbar.Collapse>
           <Navbar.Link
-            active
             className={`cursor-pointer text-lg ${
               changeBackground ? "text-gray-400" : ""
             }`}
@@ -90,15 +89,7 @@ const Header = () => {
               Projects
             </Link>
           </Navbar.Link>
-          <Navbar.Link
-            className={`cursor-pointer text-lg ${
-              changeBackground ? "text-gray-400" : ""
-            }`}
-          >
-            <Link to="news" smooth={true} duration={1000} className="text-lg">
-              News
-            </Link>
-          </Navbar.Link>
+
           <Navbar.Link
             className={`cursor-pointer text-lg ${
               changeBackground ? "text-gray-400" : ""

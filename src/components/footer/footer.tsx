@@ -54,28 +54,40 @@ const FooterComponent = () => {
               />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="#"
+                  href="https://www.instagram.com/__dynamictech?igsh=MXNuZmN5cnlnc2tmaw=="
+                  target="_blank"
                   className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
                 >
                   Instagram
                 </Footer.Link>
                 <Footer.Link
-                  href="#"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/dynamictechnologieset/"
                   className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
                 >
                   Linkedin
                 </Footer.Link>
+
                 <Footer.Link
-                  href="#"
-                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
-                >
-                  Tiktok
-                </Footer.Link>
-                <Footer.Link
-                  href="#"
+                  target="_blank"
+                  href="https://t.me/DynamicTechnologiesEth"
                   className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
                 >
                   Telegram
+                </Footer.Link>
+              </Footer.LinkGroup>
+            </div>
+            <div>
+              <Footer.Title
+                className="text-lg text-gray-900"
+                title="Contact us"
+              />
+              <Footer.LinkGroup col>
+                <Footer.Link
+                  href="#"
+                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
+                >
+                  +251970410063
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -87,14 +99,14 @@ const FooterComponent = () => {
             className="text-lg text-white"
             href="#"
             by="Dynamic Technologies™"
-            year={2024}
+            year={new Date().getFullYear()}
           />
-          <div className="flex mt-4 space-x-6 sm:mt-0 sm:justify-center">
+          {/* <div className="flex mt-4 space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon className="text-white" href="#" icon={BsFacebook} />
             <Footer.Icon className="text-white" href="#" icon={BsInstagram} />
             <Footer.Icon className="text-white" href="#" icon={BsLinkedin} />
             <Footer.Icon className="text-white" href="#" icon={BsTelegram} />
-          </div>
+          </div> */}
         </div>
       </div>
     </Footer>

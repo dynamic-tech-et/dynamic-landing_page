@@ -7,10 +7,10 @@ import Image from "../../assets/Innovation-amico (2).svg";
 
 const ExplanationComponent = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full mx-auto sm:w-4/5">
+    <div className="flex flex-col items-center justify-center w-full pt-16 mx-auto sm:w-4/5">
       <HeadingComponent
         title="How We Get It Done"
-        description="Our process is designed to help you succeed. Here’s how we do it."
+        description="We provide best design Solution in town"
         icon={<BsRocketTakeoff size={80} color="black" />}
       />
 
