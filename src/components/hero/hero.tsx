@@ -14,9 +14,11 @@ const HeroComponent = () => {
           </h4>
 
           <div className="flex flex-col items-center justify-center w-full gap-6 mx-auto text-center sm:flex-row">
-            <button className="px-6 py-4 text-lg font-semibold text-white transition-colors border border-white hover:bg-white hover:text-black">
-              Explore More
-            </button>
+            <a href="#services" className="text-lg">
+              <button className="px-6 py-4 text-lg font-semibold text-white transition-colors border border-white hover:bg-white hover:text-black">
+                Explore More
+              </button>
+            </a>
           </div>
         </div>
       </div>
