@@ -22,19 +22,6 @@ const HeroComponent = () => {
           </div>
         </div>
       </div>
-
-      {/* <motion.div
-        animate={{ x: 80 }}
-        transition={{
-          repeat: Infinity,
-          repeatType: "reverse",
-          ease: "easeInOut",
-          duration: 4,
-        }}
-        className="flex items-center justify-center w-full py-24 md:w-1/2 md:py-48"
-      >
-        <img src={HeroImage} alt="Hero Image" className="w-3/4 md:scale-125" />
-      </motion.div> */}
     </>
   );
 };

@@ -8,6 +8,7 @@ import ExplanationComponent from "./components/explanation/explanation";
 // import NewsComponent from "./components/news/news";
 import TechnologiesComponent from "./components/technologies/technologies";
 import TestimonialComponent from "./components/testimonial/testimonial";
+import ProjectComponent from "./components/project/project";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         </div>
       </div>
       <ServiceComponent />
+      <ProjectComponent />
       <ExplanationComponent />
       {/* <ProjectComponent /> */}
       <TestimonialComponent />

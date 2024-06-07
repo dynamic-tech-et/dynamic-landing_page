@@ -5,73 +5,66 @@ const ProjectComponent = () => {
   return (
     <div
       id="projects"
-      className="w-full md:w-4/5 mx-auto flex flex-col justify-center items-center gap-8"
+      className="flex flex-col items-center justify-center w-full gap-8 mx-auto mt-20 md:w-4/5"
     >
-      <div className="w-full flex justify-center items-center">
-        <h1 className="text-4xl text-gray-900 font-bold">Recent Projects</h1>
-      </div>
-      <div className="flex flex-wrap w-full justify-center items-center gap-3">
-        <Chip
-          label="See All"
-          color="blue"
-          handleClick={() => console.log("All")}
-        />
-        <Chip
-          label="Branding"
-          color="green"
-          handleClick={() => console.log("Branding")}
-        />
-        <Chip
-          label="Mobile Application"
-          color="red"
-          handleClick={() => console.log("Mobile Application")}
-        />
-        <Chip
-          label="Web Development"
-          color="yellow"
-          handleClick={() => console.log("Web Development")}
-        />
-        <Chip
-          label="UI/UX"
-          color="purple"
-          handleClick={() => console.log("UI/UX")}
-        />
+      <div className="flex items-center justify-center w-full">
+        <h1 className="text-4xl font-bold text-gray-900">Recent Projects</h1>
       </div>
 
-      <div className="w-4/5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 flex-wrap">
+      <div className="grid flex-wrap w-4/5 grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
         <ProjectCard
-          imageUrl="https://picsum.photos/800/600"
-          title="Project 1"
-          type="Branding"
-        />
-        <ProjectCard
-          imageUrl="https://picsum.photos/800/600"
-          title="Project 2"
-          type="Mobile Application"
-        />
-        <ProjectCard
-          imageUrl="https://picsum.photos/800/600"
-          title="Project 3"
+          imageUrl="src/assets/portfolio/web/euee.png"
+          title="EUEE"
           type="Web Development"
         />
         <ProjectCard
-          imageUrl="https://picsum.photos/800/600"
-          title="Project 4"
-          type="UI/UX"
+          imageUrl="src/assets/portfolio/web/hospital.png"
+          title="Hospital Management System"
+          type="Web Development"
         />
         <ProjectCard
-          imageUrl="https://picsum.photos/800/600"
-          title="Project 5"
-          type="Branding"
+          imageUrl="src/assets/portfolio/web/tin.jpg"
+          title="TIN"
+          type="Web Development"
         />
         <ProjectCard
-          imageUrl="https://picsum.photos/800/600"
-          title="Project 6"
-          type="Mobile Application"
+          imageUrl="src/assets/portfolio/web/unishare.jpg"
+          title="Unishare"
+          type="Web Development"
         />
         <ProjectCard
-          imageUrl="https://picsum.photos/800/600"
-          title="Project 7"
+          imageUrl="src/assets/portfolio/web/charity.png"
+          title="Charity"
+          type="Web Development"
+        />
+        <ProjectCard
+          imageUrl="src/assets/portfolio/web/ruthcoffee.png"
+          title="Ruth Coffee"
+          type="Web Development"
+        />
+        <ProjectCard
+          imageUrl="src/assets/portfolio/web/cat.png"
+          title="Cat"
+          type="Web Development"
+        />
+        <ProjectCard
+          imageUrl="src/assets/portfolio/web/crypto.png"
+          title="Crypto"
+          type="Web Development"
+        />
+        <ProjectCard
+          imageUrl="src/assets/portfolio/web/etconst.png"
+          title="ET construction"
+          type="Web Development"
+        />
+        <ProjectCard
+          imageUrl="src/assets/portfolio/web/chatapp.png"
+          title="Chat app"
+          type="Web Development"
+        />
+        <ProjectCard
+          imageUrl="src/assets/portfolio/web/gpa.png"
+          title="GPA"
           type="Web Development"
         />
       </div>
