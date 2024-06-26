@@ -1,4 +1,3 @@
-import Chip from "../common/chip";
 import ProjectCard from "./projectCard";
 
 const ProjectComponent = () => {
