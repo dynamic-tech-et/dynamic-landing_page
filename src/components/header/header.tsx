@@ -22,7 +22,7 @@ const Header = () => {
     <div
       className={`w-full fixed top-0 ${
         changeBackground
-          ? "bg-gradient-to-r from-black to-gray-500"
+          ? "bg-gradient-to-r from-blue to-green-500 bg-opacity-90"
           : "bg-gradient-none bg-white md:border-b md:border-gray-300"
       } py-4 z-30 shadow-xl`}
     >

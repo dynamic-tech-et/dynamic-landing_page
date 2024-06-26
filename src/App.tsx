@@ -16,7 +16,12 @@ function App() {
       <div className="w-full">
         <Header />
       </div>
-      <div className="bg-gradient-to-r from-black to-gray-500">
+      <div
+        className="bg-gradient-to-r"
+        style={{
+          background: "#0b344b",
+        }}
+      >
         <div
           style={{
             backgroundImage: `url("./blob-two.svg"), url("./blob-four.svg")`,

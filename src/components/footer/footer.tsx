@@ -12,11 +12,12 @@ const FooterComponent = () => {
       container
       className="flex items-center justify-center"
       style={{
-        backgroundImage: "url(./wave.svg)",
-        backgroundSize: "cover",
+        // backgroundImage: "url(./wave.svg)",
+        // backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         padding: "3rem 0",
+        background: "#0b344b",
       }}
     >
       <div className="w-4/5 pb-6 mx-auto">
@@ -37,33 +38,30 @@ const FooterComponent = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
-              <Footer.Title className="text-lg text-gray-900" title="about" />
+              <Footer.Title className="text-lg text-white" title="about" />
               <Footer.LinkGroup col>
                 <Footer.Link
                   href="#"
-                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
+                  className="text-lg text-white transition-all hover:underline hover:transition-all"
                 >
                   Dynamic Technologies
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title
-                className="text-lg text-gray-900"
-                title="Follow us"
-              />
+              <Footer.Title className="text-lg text-white" title="Follow us" />
               <Footer.LinkGroup col>
                 <Footer.Link
                   href="https://www.instagram.com/__dynamictech?igsh=MXNuZmN5cnlnc2tmaw=="
                   target="_blank"
-                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
+                  className="text-lg text-white transition-all hover:underline hover:transition-all"
                 >
                   Instagram
                 </Footer.Link>
                 <Footer.Link
                   target="_blank"
                   href="https://www.linkedin.com/company/dynamictechnologieset/"
-                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
+                  className="text-lg text-white transition-all hover:underline hover:transition-all"
                 >
                   Linkedin
                 </Footer.Link>
@@ -71,21 +69,18 @@ const FooterComponent = () => {
                 <Footer.Link
                   target="_blank"
                   href="https://t.me/DynamicTechnologiesEth"
-                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
+                  className="text-lg text-white transition-all hover:underline hover:transition-all"
                 >
                   Telegram
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title
-                className="text-lg text-gray-900"
-                title="Contact us"
-              />
+              <Footer.Title className="text-lg text-white" title="Contact us" />
               <Footer.LinkGroup col>
                 <Footer.Link
                   href="#"
-                  className="text-lg text-gray-500 transition-all hover:underline hover:transition-all"
+                  className="text-lg text-white transition-all hover:underline hover:transition-all"
                 >
                   +251970410063
                 </Footer.Link>
