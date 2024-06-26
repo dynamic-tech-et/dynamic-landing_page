@@ -45,7 +45,7 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Button className="py-1 text-xl font-bold transition-all bg-gradient-to-r from-blue to-green-500 hover:bg-gradient-to-l">
+            <Button className="py-1 text-xl font-bold transition-all bg-gradient-to-r from-blue to-blue hover:bg-gradient-to-l">
               Contact Us
             </Button>
           </a>

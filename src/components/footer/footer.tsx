@@ -82,7 +82,7 @@ const FooterComponent = () => {
                   href="#"
                   className="text-lg text-white transition-all hover:underline hover:transition-all"
                 >
-                  +251970410063
+                  <a href="tel:+251970410063">Call +251970410063</a>
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>

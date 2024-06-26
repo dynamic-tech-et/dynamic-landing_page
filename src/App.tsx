@@ -22,14 +22,7 @@ function App() {
           background: "#0b344b",
         }}
       >
-        <div
-          style={{
-            backgroundImage: `url("./blob-two.svg"), url("./blob-four.svg")`,
-            backgroundRepeat: "no-repeat, no-repeat",
-            backgroundPosition: "top -10rem right -15rem, center left -5rem",
-            zIndex: "5",
-          }}
-        >
+        <div>
           <HeroComponent />
         </div>
       </div>
