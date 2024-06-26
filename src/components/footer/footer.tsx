@@ -1,10 +1,4 @@
 import { Footer } from "flowbite-react";
-import {
-  BsFacebook,
-  BsTelegram,
-  BsInstagram,
-  BsLinkedin,
-} from "react-icons/bs";
 
 const FooterComponent = () => {
   return (
