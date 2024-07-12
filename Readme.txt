@@ -1,1 +1,1 @@
-A company portfolio site developed for utopix technologies.
+# Dynamic technologies main landing page site
